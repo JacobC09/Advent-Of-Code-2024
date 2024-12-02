@@ -11,6 +11,7 @@ const TEST_INPUT: &str = r#"
 "#;
 
 fn main() {
+    println!("Day 1:");
     println!("Part one: {}", part_one(INPUT));
     println!("Part two: {}", part_two(INPUT));
 }
@@ -86,6 +87,6 @@ mod test {
     use super::*;
     use utils::test_part;
 
-    test_part!(test_part_one, part_one, TEST_INPUT, 11);
-    test_part!(test_part_two, part_two, TEST_INPUT, 31);
+    test_part!(part_one, TEST_INPUT, 11);
+    test_part!(part_two, TEST_INPUT, 31);
 }
