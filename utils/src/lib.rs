@@ -16,3 +16,38 @@ macro_rules! test_part {
         }
     };
 }
+
+/*
+
+// Template
+const INPUT: &str = include_str!("input.txt");
+
+#[allow(dead_code)]
+const TEST_INPUT: &str = r#"
+
+"#;
+
+fn main() {
+    println!("Day 5:");
+    println!("Part one: {}", part_one(INPUT));
+    // println!("Part two: {}", part_two(INPUT));
+}
+
+fn part_one(input: &str) -> i32 {
+    0
+}
+
+// fn part_two(input: &str) -> i32 {
+//     0
+// }
+
+#[cfg(test)]
+mod test {
+    use super::*;
+    use utils::test_part;
+
+    test_part!(part_one, TEST_INPUT, 0);
+    // test_part!(part_two, TEST_INPUT, 0);
+}
+
+*/
