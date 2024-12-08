@@ -16,7 +16,7 @@ const TEST_INPUT: &str = r#"
 "#;
 
 fn main() {
-    println!("Day 5:");
+    println!("Day 7:");
     println!("Part one: {}", part_one(INPUT));
     println!("Part two: {}", part_two(INPUT));
 }
